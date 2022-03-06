@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE MRML SYSTEM "mrml20.dtd">
+<MRML>
+<Volume id='V1' name='grayscale' filePattern='%s.%03d' filePrefix='spgr/I' rasToIjkMatrix='0 -1.06666667 0 127.5 0 0 -1.06666667 127.5 0.666666667 0 0 61.5 0 0 0 1' rasToVtkMatrix='0 -1.06666667 0 127.5 0 0 1.06666667 127.5 0.666666667 0 0 61.5 0 0 0 1' positionMatrix='0 0 1 -92.25 -1 0 0 119.53125 0 1 0 -119.53125 0 0 0 1' description='LR' colorLUT='0'   window='216' level='113' lowerThreshold='0' upperThreshold='779' imageRange='1 124'></Volume>
+<Volume id='V2' name='segmented' filePattern='%s.%03d' filePrefix='seg/seg' rasToIjkMatrix='0 -1.06666667 0 127.5 0 0 -1.06666667 127.5 0.666666667 0 0 61.5 0 0 0 1' rasToVtkMatrix='0 -1.06666667 0 127.5 0 0 1.06666667 127.5 0.666666667 0 0 61.5 0 0 0 1' positionMatrix='0 0 1 -92.25 -1 0 0 119.53125 0 1 0 -119.53125 0 0 0 1' description='LR' colorLUT='-1'   labelMap='true' interpolate='false' littleEndian='true' window='2' level='0' lowerThreshold='0' upperThreshold='0' imageRange='1 124'></Volume>
+<Model name='Tumor' fileName='Tumor.vtk' color='Tumor'></Model>
+<Model name='Brain' fileName='Brain.vtk' color='Brain'></Model>
+<Color name='Background' labels='0' diffuseColor='0 0 0'></Color>
+<Color name='Brain' labels='5' diffuseColor='0.9 0.5 0.5'></Color>
+<Color name='Tumor' labels='6' diffuseColor='0.5 0.9 0.5'></Color>
+<Color name='Ventricles' labels='7' diffuseColor='0.4 0.7 1'></Color>
+<Color name='Edema' labels='9' diffuseColor='0.9 0 0'></Color>
+<Color name='Necrosis' labels='10' diffuseColor='1 1 0.5'></Color>
+</MRML>

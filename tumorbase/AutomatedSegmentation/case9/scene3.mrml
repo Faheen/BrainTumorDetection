@@ -1,0 +1,68 @@
+<MRML>
+<Selection
+ id="vtkMRMLSelectionNode1" name="vtkMRMLSelectionNode1" hideFromEditors="true" selectable="true"  activeVolumeID="vtkMRMLScalarVolumeNode2" activeLabelVolumeID="NULL" activeFiducialListID="NULL" activeROIListID="NULL" activeCameraID="NULL" activeViewID="NULL" activeLayoutID="vtkMRMLLayoutNode1"></Selection>
+<Interaction
+ id="vtkMRMLInteractionNode1" name="vtkMRMLInteractionNode1" hideFromEditors="true" selectable="true"  currentInteractionMode="ViewTransform" lastInteractionMode="ViewTransform"></Interaction>
+<Layout
+ id="vtkMRMLLayoutNode1" name="vtkMRMLLayoutNode1" hideFromEditors="true" selectable="true"  currentViewArrangement="2" guiPanelVisibility="1" bottomPanelVisiblity ="1" guiPanelLR ="0"></Layout>
+<View
+ id="vtkMRMLViewNode1" name="vtkMRMLViewNode1" hideFromEditors="true" selectable="true"  active="false" fieldOfView="200" letterSize="0.05" boxVisible="true" fiducialsVisible="true" fiducialLabelsVisible="true" axisLabelsVisible="true" backgroundColor="0.70196 0.70196 0.90588" animationMode="Off" viewAxisMode="LookFrom" spinDegrees="2" spinMs="5" spinDirection="YawLeft" rotateDegrees="5" rockLength="200" rockCount="0" stereoType="NoStereo" renderMode="Perspective"></View>
+<Camera
+ id="vtkMRMLCameraNode1" name="vtkMRMLCameraNode1" hideFromEditors="true" selectable="true"  position="-364.451 311.675 141.541" focalPoint="0 0 0" viewUp="0.195627 -0.206608 0.958667" parallelProjection="false" parallelScale="1" active="false"></Camera>
+<VolumeRenderingSelection
+ id="vtkMRMLVolumeRenderingSelectionNode1" name="vtkMRMLVolumeRenderingSelectionNode1" hideFromEditors="true" selectable="true"  activeVolumeID="NULL" activeVolumeRenderingID="NULL"></VolumeRenderingSelection>
+<Slice
+ id="vtkMRMLSliceNode1" name="vtkMRMLSliceNode1" hideFromEditors="true" selectable="true"  fieldOfView="354.916 239.062 0.9375" dimensions="386 260 1" layoutGridRows="1" layoutGridColumns="1" sliceToRAS="-1 -0 0 -0.75 -0 -0 1 -0.46875 0 1 -0 1.7264e-14 -0 0 -0 1" layoutName="Green" orientation="Coronal" sliceVisibility="false" widgetVisibility="false"></Slice>
+<SliceComposite
+ id="vtkMRMLSliceCompositeNode1" name="vtkMRMLSliceCompositeNode1" hideFromEditors="true" selectable="true"  backgroundVolumeID="vtkMRMLScalarVolumeNode2" foregroundVolumeID="" labelVolumeID="" labelOpacity="1" linkedControl="0" foregroundGrid="0" backgroundGrid="0" labelGrid="1" fiducialVisibility="1" fiducialLabelVisibility="1" layoutName="Green" annotationMode="All" crosshairMode="NoCrosshair" crosshairBehavior="Normal"></SliceComposite>
+<Slice
+ id="vtkMRMLSliceNode2" name="vtkMRMLSliceNode2" hideFromEditors="true" selectable="true"  fieldOfView="354.916 239.062 0.9375" dimensions="386 260 1" layoutGridRows="1" layoutGridColumns="1" sliceToRAS="-1 0 -0 -0.75 0 1 0 -1.7264e-14 -0 0 1 -0.46875 0 -0 0 1" layoutName="Red" orientation="Axial" sliceVisibility="false" widgetVisibility="false"></Slice>
+<SliceComposite
+ id="vtkMRMLSliceCompositeNode2" name="vtkMRMLSliceCompositeNode2" hideFromEditors="true" selectable="true"  backgroundVolumeID="vtkMRMLScalarVolumeNode2" foregroundVolumeID="" labelVolumeID="" labelOpacity="1" linkedControl="0" foregroundGrid="0" backgroundGrid="0" labelGrid="1" fiducialVisibility="1" fiducialLabelVisibility="1" layoutName="Red" annotationMode="All" crosshairMode="NoCrosshair" crosshairBehavior="Normal"></SliceComposite>
+<Slice
+ id="vtkMRMLSliceNode3" name="vtkMRMLSliceNode3" hideFromEditors="true" selectable="true"  fieldOfView="354.916 239.062 1.5" dimensions="386 260 1" layoutGridRows="1" layoutGridColumns="1" sliceToRAS="-0 0 1 -32.25 -1 -0 0 -1.7264e-14 -0 1 -0 1.7264e-14 0 -0 0 1" layoutName="Yellow" orientation="Sagittal" sliceVisibility="false" widgetVisibility="false"></Slice>
+<SliceComposite
+ id="vtkMRMLSliceCompositeNode3" name="vtkMRMLSliceCompositeNode3" hideFromEditors="true" selectable="true"  backgroundVolumeID="vtkMRMLScalarVolumeNode2" foregroundVolumeID="" labelVolumeID="" labelOpacity="1" linkedControl="0" foregroundGrid="0" backgroundGrid="0" labelGrid="1" fiducialVisibility="1" fiducialLabelVisibility="1" layoutName="Yellow" annotationMode="All" crosshairMode="NoCrosshair" crosshairBehavior="Normal"></SliceComposite>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="vtkMRMLScriptedModuleNode1" hideFromEditors="true" selectable="true"  ModuleName ="Editor" parameter0= "label 1"></ScriptedModule>
+<VolumeDisplay
+ id="vtkMRMLScalarVolumeDisplayNode1" name="vtkMRMLScalarVolumeDisplayNode1" hideFromEditors="true" selectable="true"  color="0.5 0.5 0.5" ambient="0" diffuse="1" specular="0" power="1" opacity="1" visibility="true" clipping="false" backfaceCulling="true" scalarVisibility="false" vectorVisibility="false" tensorVisibility="false" autoScalarRange="true" scalarRange="0 100" colorNodeRef="vtkMRMLColorTableNodeGrey"  window="236" level="123" upperThreshold="525" lowerThreshold="0" interpolate="1" autoWindowLevel="1" applyThreshold="0" autoThreshold="0"></VolumeDisplay>
+<Volume
+ id="vtkMRMLScalarVolumeNode1" name="grayscale" description="LR" hideFromEditors="false" selectable="true"  transformNodeRef="NestingMarker" storageNodeRef="vtkMRMLVolumeArchetypeStorageNode1" displayNodeRef="vtkMRMLScalarVolumeDisplayNode1" ijkToRASDirections="-0   0   1 -1   -0   0 -0 1 -0 " spacing="0.9375 0.9375 1.5" origin="-92.25 119.531 -119.531" labelMap="0"></Volume>
+<GADParameters
+ id="vtkMRMLGradientAnisotropicDiffusionFilterNode1" name="GADParameters1" hideFromEditors="true" selectable="true"  Conductance="1" NumberOfIterations="1" TimeStep="0.1" InputVolumeRef="vtkMRMLScalarVolumeNode1" OutputVolumeRef="vtkMRMLScalarVolumeNode1"></GADParameters>
+<LabelMapVolumeDisplay
+ id="vtkMRMLLabelMapVolumeDisplayNode1" name="vtkMRMLLabelMapVolumeDisplayNode1" hideFromEditors="true" selectable="true"  color="0.5 0.5 0.5" ambient="0" diffuse="1" specular="0" power="1" opacity="1" visibility="true" clipping="false" backfaceCulling="true" scalarVisibility="false" vectorVisibility="false" tensorVisibility="false" autoScalarRange="true" scalarRange="0 100" colorNodeRef="vtkMRMLColorTableNodeLabels" ></LabelMapVolumeDisplay>
+<Volume
+ id="vtkMRMLScalarVolumeNode2" name="segmented" description="LR" hideFromEditors="false" selectable="true"  transformNodeRef="NestingMarker" storageNodeRef="vtkMRMLVolumeArchetypeStorageNode2" displayNodeRef="vtkMRMLLabelMapVolumeDisplayNode1" ijkToRASDirections="-0   0   1 -1   -0   0 -0 1 -0 " spacing="0.9375 0.9375 1.5" origin="-92.25 119.531 -119.531" labelMap="1"></Volume>
+<ModelStorage
+ id="vtkMRMLModelStorageNode1" name="vtkMRMLModelStorageNode1" hideFromEditors="true" selectable="true"  fileName="Necrosis.vtk" useCompression="1" readState="0" writeState="0"></ModelStorage>
+<ModelDisplay
+ id="vtkMRMLModelDisplayNode4" name="vtkMRMLModelDisplayNode4" hideFromEditors="true" selectable="true"  color="1 1 0.5" ambient="0" diffuse="1" specular="0" power="1" opacity="1" visibility="true" clipping="false" backfaceCulling="true" scalarVisibility="false" vectorVisibility="false" tensorVisibility="false" autoScalarRange="true" scalarRange="0 100" ></ModelDisplay>
+<Model
+ id="vtkMRMLModelNode4" name="Necrosis.vtk" hideFromEditors="false" selectable="true"  storageNodeRef="vtkMRMLModelStorageNode1" displayNodeRef="vtkMRMLModelDisplayNode4"></Model>
+<ModelStorage
+ id="vtkMRMLModelStorageNode2" name="vtkMRMLModelStorageNode2" hideFromEditors="true" selectable="true"  fileName="Ventricles.vtk" useCompression="1" readState="0" writeState="0"></ModelStorage>
+<ModelDisplay
+ id="vtkMRMLModelDisplayNode5" name="vtkMRMLModelDisplayNode5" hideFromEditors="true" selectable="true"  color="0.4 0.698039 1" ambient="0" diffuse="1" specular="0" power="1" opacity="1" visibility="true" clipping="false" backfaceCulling="true" scalarVisibility="false" vectorVisibility="false" tensorVisibility="false" autoScalarRange="true" scalarRange="0 100" ></ModelDisplay>
+<Model
+ id="vtkMRMLModelNode5" name="Ventricles.vtk" hideFromEditors="false" selectable="true"  storageNodeRef="vtkMRMLModelStorageNode2" displayNodeRef="vtkMRMLModelDisplayNode5"></Model>
+<ModelStorage
+ id="vtkMRMLModelStorageNode3" name="vtkMRMLModelStorageNode3" hideFromEditors="true" selectable="true"  fileName="Tumor.vtk" useCompression="1" readState="0" writeState="0"></ModelStorage>
+<ModelDisplay
+ id="vtkMRMLModelDisplayNode6" name="vtkMRMLModelDisplayNode6" hideFromEditors="true" selectable="true"  color="0.5 0.9 0.5" ambient="0" diffuse="1" specular="0" power="1" opacity="1" visibility="true" clipping="false" backfaceCulling="true" scalarVisibility="false" vectorVisibility="false" tensorVisibility="false" autoScalarRange="true" scalarRange="0 100" ></ModelDisplay>
+<Model
+ id="vtkMRMLModelNode6" name="Tumor.vtk" hideFromEditors="false" selectable="true"  storageNodeRef="vtkMRMLModelStorageNode3" displayNodeRef="vtkMRMLModelDisplayNode6"></Model>
+<ModelStorage
+ id="vtkMRMLModelStorageNode4" name="vtkMRMLModelStorageNode4" hideFromEditors="true" selectable="true"  fileName="Brain.vtk" useCompression="1" readState="0" writeState="0"></ModelStorage>
+<ModelDisplay
+ id="vtkMRMLModelDisplayNode7" name="vtkMRMLModelDisplayNode7" hideFromEditors="true" selectable="true"  color="1 1 1" ambient="0" diffuse="1" specular="0" power="1" opacity="0.5" visibility="true" clipping="false" backfaceCulling="true" scalarVisibility="false" vectorVisibility="false" tensorVisibility="false" autoScalarRange="true" scalarRange="0 100" activeScalarName="" ></ModelDisplay>
+<Model
+ id="vtkMRMLModelNode7" name="Brain.vtk" hideFromEditors="false" selectable="true"  storageNodeRef="vtkMRMLModelStorageNode4" displayNodeRef="vtkMRMLModelDisplayNode7"></Model>
+<ClipModels
+ id="vtkMRMLClipModelsNode1" name="vtkMRMLClipModelsNode1" hideFromEditors="true" selectable="true"  clipType="0" redSliceClipState="0" yellowSliceClipState="0" greenSliceClipState="0"></ClipModels>
+<VolumeArchetypeStorage
+ id="vtkMRMLVolumeArchetypeStorageNode1" name="vtkMRMLVolumeArchetypeStorageNode1" hideFromEditors="true" selectable="true"  fileName="grayscale.nrrd" useCompression="1" readState="0" writeState="4" centerImage="0" singleFile="0"></VolumeArchetypeStorage>
+<VolumeArchetypeStorage
+ id="vtkMRMLVolumeArchetypeStorageNode2" name="vtkMRMLVolumeArchetypeStorageNode2" hideFromEditors="true" selectable="true"  fileName="segmented.nrrd" useCompression="1" readState="0" writeState="4" centerImage="0" singleFile="0"></VolumeArchetypeStorage>
+</MRML>
